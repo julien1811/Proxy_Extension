@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA3B7F602615351000AAB257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B7F5F2615351000AAB257 /* AppDelegate.swift */; };
+		EA3B7F632615351000AAB257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B7F612615351000AAB257 /* Main.storyboard */; };
+		EA3B7F652615351000AAB257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B7F642615351000AAB257 /* ViewController.swift */; };
+		EA3B7F672615351300AAB257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3B7F662615351300AAB257 /* Assets.xcassets */; };
+		EA3B7F6E2615351300AAB257 /* EpicProxy Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EA3B7F6D2615351300AAB257 /* EpicProxy Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EA3B7F732615351300AAB257 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3B7F722615351300AAB257 /* Cocoa.framework */; };
+		EA3B7F762615351300AAB257 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B7F752615351300AAB257 /* SafariWebExtensionHandler.swift */; };
+		EA3B7F8E2615351500AAB257 /* popup.1.html in Resources */ = {isa = PBXBuildFile; fileRef = EA3B7F832615351500AAB257 /* popup.1.html */; };
+		EA3B7F8F2615351500AAB257 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = EA3B7F842615351500AAB257 /* background.js */; };
+		EA3B7F902615351500AAB257 /* jquery-1.7.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EA3B7F852615351500AAB257 /* jquery-1.7.2.min.js */; };
+		EA3B7F912615351500AAB257 /* images in Resources */ = {isa = PBXBuildFile; fileRef = EA3B7F862615351500AAB257 /* images */; };
+		EA3B7F922615351500AAB257 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = EA3B7F872615351500AAB257 /* popup.html */; };
+		EA3B7F932615351500AAB257 /* toggle.js in Resources */ = {isa = PBXBuildFile; fileRef = EA3B7F882615351500AAB257 /* toggle.js */; };
+		EA3B7F942615351500AAB257 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = EA3B7F892615351500AAB257 /* style.css */; };
+		EA3B7F952615351500AAB257 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = EA3B7F8A2615351500AAB257 /* manifest.json */; };
+		EA3B7F962615351500AAB257 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = EA3B7F8B2615351500AAB257 /* options.html */; };
+		EA3B7F972615351500AAB257 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = EA3B7F8C2615351500AAB257 /* background.html */; };
+		EA3B7F982615351500AAB257 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = EA3B7F8D2615351500AAB257 /* _locales */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA3B7F6F2615351300AAB257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA3B7F532615350F00AAB257 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3B7F6C2615351300AAB257;
+			remoteInfo = "EpicProxy Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA3B7F7E2615351300AAB257 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EA3B7F6E2615351300AAB257 /* EpicProxy Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA3B7F5B2615351000AAB257 /* EpicProxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpicProxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3B7F5E2615351000AAB257 /* EpicProxy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EpicProxy.entitlements; sourceTree = "<group>"; };
+		EA3B7F5F2615351000AAB257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA3B7F622615351000AAB257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA3B7F642615351000AAB257 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA3B7F662615351300AAB257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA3B7F682615351300AAB257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3B7F6D2615351300AAB257 /* EpicProxy Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EpicProxy Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3B7F722615351300AAB257 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EA3B7F752615351300AAB257 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		EA3B7F772615351300AAB257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3B7F782615351300AAB257 /* EpicProxy_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EpicProxy_Extension.entitlements; sourceTree = "<group>"; };
+		EA3B7F832615351500AAB257 /* popup.1.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.1.html; path = ../../Downloads/Proxy/popup.1.html; sourceTree = "<group>"; };
+		EA3B7F842615351500AAB257 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../Downloads/Proxy/background.js; sourceTree = "<group>"; };
+		EA3B7F852615351500AAB257 /* jquery-1.7.2.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "jquery-1.7.2.min.js"; path = "../../Downloads/Proxy/jquery-1.7.2.min.js"; sourceTree = "<group>"; };
+		EA3B7F862615351500AAB257 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../Downloads/Proxy/images; sourceTree = "<group>"; };
+		EA3B7F872615351500AAB257 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../Downloads/Proxy/popup.html; sourceTree = "<group>"; };
+		EA3B7F882615351500AAB257 /* toggle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = toggle.js; path = ../../Downloads/Proxy/toggle.js; sourceTree = "<group>"; };
+		EA3B7F892615351500AAB257 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = style.css; path = ../../Downloads/Proxy/style.css; sourceTree = "<group>"; };
+		EA3B7F8A2615351500AAB257 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../Downloads/Proxy/manifest.json; sourceTree = "<group>"; };
+		EA3B7F8B2615351500AAB257 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = ../../Downloads/Proxy/options.html; sourceTree = "<group>"; };
+		EA3B7F8C2615351500AAB257 /* background.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = background.html; path = ../../Downloads/Proxy/background.html; sourceTree = "<group>"; };
+		EA3B7F8D2615351500AAB257 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../Downloads/Proxy/_locales; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA3B7F582615350F00AAB257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3B7F6A2615351300AAB257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3B7F732615351300AAB257 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA3B7F522615350F00AAB257 = {
+			isa = PBXGroup;
+			children = (
+				EA3B7F5D2615351000AAB257 /* EpicProxy */,
+				EA3B7F742615351300AAB257 /* EpicProxy Extension */,
+				EA3B7F712615351300AAB257 /* Frameworks */,
+				EA3B7F5C2615351000AAB257 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA3B7F5C2615351000AAB257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B7F5B2615351000AAB257 /* EpicProxy.app */,
+				EA3B7F6D2615351300AAB257 /* EpicProxy Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA3B7F5D2615351000AAB257 /* EpicProxy */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B7F5E2615351000AAB257 /* EpicProxy.entitlements */,
+				EA3B7F5F2615351000AAB257 /* AppDelegate.swift */,
+				EA3B7F612615351000AAB257 /* Main.storyboard */,
+				EA3B7F642615351000AAB257 /* ViewController.swift */,
+				EA3B7F662615351300AAB257 /* Assets.xcassets */,
+				EA3B7F682615351300AAB257 /* Info.plist */,
+			);
+			path = EpicProxy;
+			sourceTree = "<group>";
+		};
+		EA3B7F712615351300AAB257 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B7F722615351300AAB257 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA3B7F742615351300AAB257 /* EpicProxy Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B7F822615351500AAB257 /* Resources */,
+				EA3B7F752615351300AAB257 /* SafariWebExtensionHandler.swift */,
+				EA3B7F772615351300AAB257 /* Info.plist */,
+				EA3B7F782615351300AAB257 /* EpicProxy_Extension.entitlements */,
+			);
+			path = "EpicProxy Extension";
+			sourceTree = "<group>";
+		};
+		EA3B7F822615351500AAB257 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B7F832615351500AAB257 /* popup.1.html */,
+				EA3B7F842615351500AAB257 /* background.js */,
+				EA3B7F852615351500AAB257 /* jquery-1.7.2.min.js */,
+				EA3B7F862615351500AAB257 /* images */,
+				EA3B7F872615351500AAB257 /* popup.html */,
+				EA3B7F882615351500AAB257 /* toggle.js */,
+				EA3B7F892615351500AAB257 /* style.css */,
+				EA3B7F8A2615351500AAB257 /* manifest.json */,
+				EA3B7F8B2615351500AAB257 /* options.html */,
+				EA3B7F8C2615351500AAB257 /* background.html */,
+				EA3B7F8D2615351500AAB257 /* _locales */,
+			);
+			name = Resources;
+			path = "EpicProxy Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA3B7F5A2615350F00AAB257 /* EpicProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3B7F7F2615351300AAB257 /* Build configuration list for PBXNativeTarget "EpicProxy" */;
+			buildPhases = (
+				EA3B7F572615350F00AAB257 /* Sources */,
+				EA3B7F582615350F00AAB257 /* Frameworks */,
+				EA3B7F592615350F00AAB257 /* Resources */,
+				EA3B7F7E2615351300AAB257 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA3B7F702615351300AAB257 /* PBXTargetDependency */,
+			);
+			name = EpicProxy;
+			productName = EpicProxy;
+			productReference = EA3B7F5B2615351000AAB257 /* EpicProxy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA3B7F6C2615351300AAB257 /* EpicProxy Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3B7F7B2615351300AAB257 /* Build configuration list for PBXNativeTarget "EpicProxy Extension" */;
+			buildPhases = (
+				EA3B7F692615351300AAB257 /* Sources */,
+				EA3B7F6A2615351300AAB257 /* Frameworks */,
+				EA3B7F6B2615351300AAB257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EpicProxy Extension";
+			productName = "EpicProxy Extension";
+			productReference = EA3B7F6D2615351300AAB257 /* EpicProxy Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA3B7F532615350F00AAB257 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EA3B7F5A2615350F00AAB257 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EA3B7F6C2615351300AAB257 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = EA3B7F562615350F00AAB257 /* Build configuration list for PBXProject "EpicProxy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA3B7F522615350F00AAB257;
+			productRefGroup = EA3B7F5C2615351000AAB257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA3B7F5A2615350F00AAB257 /* EpicProxy */,
+				EA3B7F6C2615351300AAB257 /* EpicProxy Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA3B7F592615350F00AAB257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3B7F672615351300AAB257 /* Assets.xcassets in Resources */,
+				EA3B7F632615351000AAB257 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3B7F6B2615351300AAB257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3B7F912615351500AAB257 /* images in Resources */,
+				EA3B7F922615351500AAB257 /* popup.html in Resources */,
+				EA3B7F942615351500AAB257 /* style.css in Resources */,
+				EA3B7F932615351500AAB257 /* toggle.js in Resources */,
+				EA3B7F952615351500AAB257 /* manifest.json in Resources */,
+				EA3B7F8F2615351500AAB257 /* background.js in Resources */,
+				EA3B7F902615351500AAB257 /* jquery-1.7.2.min.js in Resources */,
+				EA3B7F8E2615351500AAB257 /* popup.1.html in Resources */,
+				EA3B7F972615351500AAB257 /* background.html in Resources */,
+				EA3B7F982615351500AAB257 /* _locales in Resources */,
+				EA3B7F962615351500AAB257 /* options.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA3B7F572615350F00AAB257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3B7F652615351000AAB257 /* ViewController.swift in Sources */,
+				EA3B7F602615351000AAB257 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3B7F692615351300AAB257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3B7F762615351300AAB257 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA3B7F702615351300AAB257 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA3B7F6C2615351300AAB257 /* EpicProxy Extension */;
+			targetProxy = EA3B7F6F2615351300AAB257 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA3B7F612615351000AAB257 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA3B7F622615351000AAB257 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA3B7F792615351300AAB257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA3B7F7A2615351300AAB257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EA3B7F7C2615351300AAB257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "EpicProxy Extension/EpicProxy_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "EpicProxy Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.EpicProxy.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EA3B7F7D2615351300AAB257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "EpicProxy Extension/EpicProxy_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "EpicProxy Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.EpicProxy.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EA3B7F802615351300AAB257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EpicProxy/EpicProxy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EpicProxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.EpicProxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EA3B7F812615351300AAB257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EpicProxy/EpicProxy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EpicProxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.EpicProxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA3B7F562615350F00AAB257 /* Build configuration list for PBXProject "EpicProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3B7F792615351300AAB257 /* Debug */,
+				EA3B7F7A2615351300AAB257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3B7F7B2615351300AAB257 /* Build configuration list for PBXNativeTarget "EpicProxy Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3B7F7C2615351300AAB257 /* Debug */,
+				EA3B7F7D2615351300AAB257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3B7F7F2615351300AAB257 /* Build configuration list for PBXNativeTarget "EpicProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3B7F802615351300AAB257 /* Debug */,
+				EA3B7F812615351300AAB257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA3B7F532615350F00AAB257 /* Project object */;
+}
